@@ -12,4 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require dust
 //= require_tree .
+
+$(function() {
+  JST["templates/hello"]({ name : "World" }, function(err, out) {
+    $('#dust').html(out);
+  });
+});
