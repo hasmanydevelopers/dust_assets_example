@@ -1,13 +1,3 @@
-GIT
-  remote: git://github.com/hasmanydevelopers/dust_assets.git
-  revision: e3067fb4ac04c68aa294ae5440da1b5a136e78d9
-  branch: develop
-  specs:
-    dust_assets (0.0.3)
-      execjs (>= 1.2.9)
-      sprockets (>= 2.0.3)
-      tilt
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -47,6 +37,10 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.2.0)
+    dust_assets (0.0.5)
+      execjs (>= 1.2.9)
+      sprockets (>= 2.0.3)
+      tilt
     erubis (2.7.0)
     execjs (1.3.0)
       multi_json (~> 1.0)
@@ -114,7 +108,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  dust_assets!
+  dust_assets (~> 0.0.5)
   jquery-rails
   rails (= 3.2.2)
   sass-rails (~> 3.2.3)
