@@ -13,8 +13,7 @@ gem 'sqlite3'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
-  gem 'dust_assets', :git => 'git://github.com/hasmanydevelopers/dust_assets.git',
-                     :branch => 'develop'
+  gem 'dust_assets', '~> 0.0.5'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer'
 
